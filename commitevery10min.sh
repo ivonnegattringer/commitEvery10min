@@ -6,5 +6,5 @@ do
     echo "$(git commit -m"$x commit")"
     echo "$(git push)"
     x=$((1+$x))
-	sleep 1m
+	sleep 10m
 done
